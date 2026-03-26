@@ -8,8 +8,8 @@
 <body>
     <h1> Formulário - 19/03/2026 </h1>
     <form method="post" action="recebe.php">
-        Login <input type="text" id="login" name="login"><br>
-        Senha <input type="password" id="senha" name="senha"><br>
+        Login <input type="text" id="login" name="login" required><br>
+        Senha <input type="password" id="senha" name="senha" required><br>
         <input type="submit" value="Validar">
     </form>
 </body>
